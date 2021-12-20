@@ -17,7 +17,7 @@ fn escape_time(c: Complex<f64>, limit: u32) -> Option<u32> {
     None
 }
 
-fn pix_to_point(
+pub fn pix_to_point(
     bounds: (usize, usize),
     pixel: (usize, usize),
     upper_left: Complex<f64>,
